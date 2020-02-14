@@ -1,0 +1,121 @@
+html,
+body {
+    height:100%;
+    padding:0;
+    margin:0;
+    font: 1.2em/1.33em Arial,Helvetica,sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 1.2em;
+    line-height: 1.33em;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+#viewDiv {
+ padding: 0;
+ margin: 0;
+ height: 100%;
+}
+
+
+.sideBar{
+  background-color:rgb(0,146,82,0.7);
+  position: absolute;
+  top: 10px; 
+  left:5px;
+  height: auto;
+  width:auto;
+  border-bottom-right-radius:5px ;
+
+}
+.logoContainer{
+  display:block;
+  position:absolute;
+  top:0px;
+  left:50%;
+  background-color: red;
+}
+.uniLogo{
+  display:block;
+  position: absolute;
+  margin-left: 0px;
+  margin-right:0px;
+  top: 5px;
+  width: 100px;
+  border-width: 2px;
+  border-color: rgb(0,146,82,0.7);
+}
+
+/* @media only screen and(min-width: 768px){
+  .logoContainer{
+    display: block;
+  }
+
+} */
+
+ .uniSelect {
+   position: relative;
+   background-color:white;
+   font-size:20px;
+   padding: 5px;
+   border-radius:0px;
+   margin-top:auto;
+   margin-bottom:auto;
+   margin-left:20px;
+   margin-right:20px;
+   /* width:85%; */
+   width:200px;
+   
+}
+
+.inputText{
+  size: 100;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.esri-widget--panel{
+  background-color:rgb(0,146,82,0.7);
+  border-radius:2px;
+} 
+
+.sidebarBtn{
+  background-color:white;
+
+}
+.sidebarBtn :hover{
+  background-color:rgb(0,146,82);
+
+}
+
+
+/* 
+uni sbg font settings
+
+font: 1.2em/1.33em Arial,Helvetica,sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 1.2em;
+    line-height: 1.33em;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    */

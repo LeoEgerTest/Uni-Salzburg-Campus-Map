@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <title>Campus Map Salzburg</title>
+
+    <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/4.13/esri/themes/light/main.css"
+    />
+    <link rel="stylesheet" href="./js/style.css">
+    <script src="https://js.arcgis.com/4.13/"></script>
+    <script src="./js/main.js"></script>
+
+
+  </head>
+
+  <body>
+
+      
+      <div id="viewDiv">
+        <div id="logoContainer" class="logoContainer">
+        <img src="img/uniSbg.png" class="uniLogo" ></div>
+    <div id="sideBarFrame" class=sideBar>
+        <div class="sideBar unselectable" id="sideBar">
+          <div class="uniSelect" style="margin-top:20px;">
+            Choose Adress <br>
+                  <select id="uniSelect"></select>
+            </div>
+              <div class="uniSelect">
+            Choose Faculty <br>
+          <select id="districtSelect"></select>
+            </div>
+
+            <div id="roomSearch" class="uniSelect"> 
+              Search for roomcode
+            <br>
+              <input type="text" id="roomCode" name="roomCode" class="inputText">
+              <button id="roomCodeSearch">Search</button>
+            </div>
+
+            <div id="tagSearch" class="uniSelect"> 
+              Search for keywords
+            <br>
+              <input type="text" id="searchTag" name="keywords tags">
+              <button id="tagSearchBtn">Search</button>
+            </div>
+
+            <br>
+            <div class="uniSelect" id="info">
+              Info
+            <div id="info" class="uniSelect" style="display:none;"></div>
+            </div>
+            <br>
+            <!-- <div id="layerList" class="uniSelect"></div> -->
+
+            <button id="routeFromLocation" class="uniSelect">Route from position</button>
+            <div id="routeFromLocationInfo" class="uniSelect" style="display:none">Choose a target first</div>
+        </div>
+
+        <div id="closeSidebar" class="esri-icon-left-triangle-arrow sidebarBtn" style="position:absolute;background-color:white;top:35px;left:2px;height:20px;border-radius:2px;line-height:27px;padding-left:2px;padding-right:3px;padding-bottom:7px;margin-right:2px;border-width:20px;border-color:#666">
+        </div>
+
+        
+      </div>
+     
+      </div>
+
+      
+  </body>
+</html>
